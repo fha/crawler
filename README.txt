@@ -2,7 +2,7 @@ The python file `crawlStreetViewAPI.py` can be used to crawl meta data from the 
 
 The file takes in the following arguments:
 -i path to the input csv file delimited with semicolons, each row must have the following columns lat,lon,heading
--m path to where the metadata csv file is downloaded
+-m path to where to write the metadata csv file
 -k the google API key
 -d path to where to download streetview images, if -d is not specificed it means the code will download metadata only 
 
